@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
       <header className={styles.headerBar}>
         <div className={styles.logo}>
           <a href="/" role="link" tabIndex="0">
-            Vivek<span style={{ fontSize: "1.25rem" }}>.Vraj</span>
+            21BIT219 & 21BIT209
           </a>
         </div>
         <nav className={styles.nav}>
@@ -87,7 +87,7 @@ const Layout = ({ children }) => {
         <hr className={styles.hr} />
         <div className={styles.github}>
           <a
-            href="https://github.com/Vivek-C-shah"
+            href="https://github.com/Vivek-C-shah/Web-Technology-Sem-6"
             rel="noopener noreferrer"
             role="link"
             tabIndex="0"
