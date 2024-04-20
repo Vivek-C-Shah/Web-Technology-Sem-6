@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start -p $PORT",
-    "heroku-postbuild": "npm run build"
+    "dev": "next dev --openssl-legacy-provider",
+    "build": "next build --openssl-legacy-provider",
+    "start": "next start -p $PORT --openssl-legacy-provider",
+    "heroku-postbuild": "npm run build --openssl-legacy-provider"
   },
   "author": "Konstantin Münster",
   "license": "ISC",
